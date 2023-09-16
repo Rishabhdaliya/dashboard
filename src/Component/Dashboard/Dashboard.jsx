@@ -89,7 +89,7 @@ const Dashboard = () => {
           <Card item={item} />
         ))}
       </div>
-      <LineChart />
+      <LineChart selectedData={selectedData} />
     </>
   );
 };
